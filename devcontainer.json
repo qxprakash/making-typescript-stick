@@ -1,0 +1,16 @@
+{
+    "name": "Making TypeScript Stick",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-vscode.vscode-typescript-next"
+        ]
+      }
+    },
+    "remoteUser": "node"
+  }
